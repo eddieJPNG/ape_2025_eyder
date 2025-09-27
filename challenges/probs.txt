@@ -1,0 +1,137 @@
+Perfeito ⚡! Mantive os enunciados originais, mas adicionei exemplos de **entradas possíveis** para cada problema (sem colocar saída para não dar spoiler da resolução). Assim fica no espírito de treino de maratona:
+
+---
+
+### 1. Contagem de Vogais
+
+Dada uma string, conte quantas vogais (`a, e, i, o, u`) existem nela. A saída deve ser apenas um número inteiro.
+
+**Entrada exemplo:**
+
+```
+programacao
+```
+
+---
+
+### 2. Palíndromo Simples
+
+Leia uma string e verifique se ela é um palíndromo (igual lida de frente para trás e de trás para frente). Escreva "SIM" se for, ou "NAO" caso contrário.
+
+**Entrada exemplo:**
+
+```
+arara
+```
+
+---
+
+### 3. Maiúsculas e Minúsculas
+
+Receba uma string e imprima duas novas versões:
+
+1. Toda em letras maiúsculas.
+2. Toda em letras minúsculas.
+
+**Entrada exemplo:**
+
+```
+Python
+```
+
+---
+
+### 4. Primeira Letra de Cada Palavra
+
+Receba uma frase e imprima apenas a **primeira letra de cada palavra**, todas juntas sem espaços.
+
+**Entrada exemplo:**
+
+```
+Maratona de Programacao
+```
+
+---
+
+### 5. Quantidade de Palavras
+
+Dada uma frase, conte e exiba quantas palavras ela possui. Considere que as palavras estão separadas por espaços.
+
+**Entrada exemplo:**
+
+```
+Eu gosto de programar em Python
+```
+
+---
+
+### 6. Substring Procurada
+
+Leia uma string `S` e uma string `P`. Informe se `P` aparece dentro de `S`.
+Imprima "SIM" ou "NAO".
+
+**Entrada exemplo:**
+
+```
+computador  
+put
+```
+
+---
+
+### 7. Invertendo String
+
+Leia uma string e imprima sua forma invertida (de trás para frente).
+
+**Entrada exemplo:**
+
+```
+abacaxi
+```
+
+---
+
+### 8. Comparação Lexicográfica
+
+Receba duas strings e determine qual delas vem primeiro na ordem alfabética. Caso sejam iguais, imprima "IGUAIS".
+
+**Entrada exemplo:**
+
+```
+banana  
+abacate
+```
+
+---
+
+### 9. Substituir Vogais
+
+Dada uma string, substitua todas as vogais (`a, e, i, o, u`) pelo caractere `*` e exiba o resultado.
+
+**Entrada exemplo:**
+
+```
+elefante
+```
+
+---
+
+### 10. Senha Forte?
+
+Dada uma string representando uma senha, verifique se ela contém:
+
+* pelo menos 1 letra maiúscula,
+* pelo menos 1 letra minúscula,
+* pelo menos 1 dígito numérico.
+
+Imprima "FORTE" se atender a todos os requisitos, ou "FRACA" caso contrário.
+
+**Entrada exemplo:**
+
+```
+Python123
+```
+
+---
+
+👉 Quer que eu também adicione **saídas esperadas** para cada exemplo (bem no estilo beecrowd, Entrada → Saída), ou você prefere só com os inputs para não influenciar na hora de resolver?
