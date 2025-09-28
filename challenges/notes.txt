@@ -1,0 +1,42 @@
+Dave: Humanoide-Artificial
+Lobby: Fenômeno
+Jake: Colônia-Natural
+Mary: Fenômeno
+Tamaru: Não-Humanoide-Artificial
+Dexter: Fenômeno
+Kuin: Não-Humanoide-Natural
+Yukiro: Humanoide-Artificial
+Newton: Não-Humanoide-Artificial
+Mandy: 
+hitsugaya: Humanoide-Natural
+Yami: Fenômeno
+Blair: Fenômeno
+
+
+REQUISITOS
+
+Requisitos levantamento geral
+
+* Cadastro de voluntário
+
+* Definir rota de voluntário(admin-side)
+
+* Gestão de eventos importante
+
+* Voluntários devem ter acesso a suas atividades e rotas(locais)
+
+* Voluntários devem  conseguir colocar suas especializações(Cadastro)
+
+* Admin deve ter a possibilidade de ver a produtividade dos voluntários(Gestão)
+
+* Geração de relatório e cadastro(documento)
+
+*
+
+*
+
+*
+
+*
+
+*

@@ -13,6 +13,8 @@ palindrome = input()
 
 reverse_text = palindrome[: : -1]
 
+print(reverse_text)
+
 if palindrome == reverse_text:
     print(f"{palindrome} é um palíndromo")
 else:
