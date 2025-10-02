@@ -1,0 +1,71 @@
+Anotações:
+
+IF - CONDICIONAL 
+
+if 
+elif
+else
+
+|Escreva um programa que leia uma sequência de números inteiros positivos terminada em -1 e imprima na tela o maior
+e o menor número lidos.
+
+nota-se que -1 é apenas um terminador e não deve ser considerado no cálculo.
+
+
+none - valor exclusivo do phyton que não recebe um valor de imediato.
+
+operador - *is* "()" não é obrigatório.
+
+major = None
+minor = None
+
+n = int(input("Digite um número: "))
+while n != -1:
+    
+    if (major is None) or (n > major):
+       major = n
+    if (minor is None) or (n < minor):
+        
+       minor = n
+    n = int(input("Digite um número: "))
+    
+print("Maior número é:",major)
+print("Menor número é:",minor)
+
+linux terminal "cat"
+
+*****curso de linux****
+
+***Entrada e saída pelo terminal bash****
+
+
+beecrowd.com
+
+
+num = int(input())
+
+minute = 0
+
+if num >= 60:
+    minute = num//60
+    num = num%60
+
+
+print(minute,":",num,)
+
+
+x = [1,2,3,4]
+
+print(x[0])
+
+b = x[0] = 6
+
+print(x[0])
+
+operacao de listas 
+
+in = 'se há elemento dentro de determinada sequência'
+
+
+
+
