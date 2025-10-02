@@ -2,6 +2,7 @@ import math
 from math import sqrt
 from math import floor
 from random import randint
+from .aula2 import greet_user
 
 #COMPREHENSIONS
 
