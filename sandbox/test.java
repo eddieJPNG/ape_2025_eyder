@@ -11,6 +11,8 @@ int myNum = 999;
 Float myFloat = 5.55f;
 int aa = 222, bb = 333, cc = 444;
 final int meterPerSecondInC = 9999;
+String bo = "hey";
+
 
 
 System.out.println(var2);
