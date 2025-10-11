@@ -5,18 +5,15 @@
 # Maratona de Programacao
 # print(char)
 
-phrase = "cu of davi grande"
+phrase = input("Digite uma frase: ")
 
 firsts_words = []
 
 for char in phrase.split():
     firsts_words.append(char[0])
     
-    
-    
-print(firsts_words)
+   # .upper()
 
-print(phrase.split())
-    
+print("".join(firsts_words))
 
     
