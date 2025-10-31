@@ -12,6 +12,7 @@ def pr(var):
 a = 10
 b = 45.7
 c = "Hey"
+
 d = ['hey', 20, None, True, 2.3]
 e = {
     'int': 6,

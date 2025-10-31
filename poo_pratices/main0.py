@@ -44,3 +44,24 @@ canal_riot.add_team_member("Ana")
 
 print(canal_riot._team)
 
+
+class Card:
+     def __init__(self, atk, defense, effect, ):
+          self.atk = atk
+          self.defense = defense
+          self.effect = effect
+          
+Dark_Old_Fairy = Card(1000, 1200, "Passa o turno se destruída no seu turno.")
+
+print(Dark_Old_Fairy.atk)
+
+with open("cards.json", "w", encoding="utf-8" ) as q:
+     q.write("{")
+     q.write("=" * 50 )
+     q.write("\nDark Old Fairy\n")
+     q.write(f"\natk:{Dark_Old_Fairy.atk}\n")
+     q.write(f"\ndef:{Dark_Old_Fairy.defense}\n")
+     q.write(f"\neffect:{Dark_Old_Fairy.effect}\n")
+     q.write("=" * 50)
+     q.write("}")
+
