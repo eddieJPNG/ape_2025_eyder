@@ -50,10 +50,14 @@ class Card:
           self.atk = atk
           self.defense = defense
           self.effect = effect
+
+     def show_info(self):
+          print(f"=========\nATK: {self.atk}\nDEF: {self.defense}\nEFFECT: {self.effect}\n=========ATK")
           
 Dark_Old_Fairy = Card(1000, 1200, "Passa o turno se destruída no seu turno.")
 
 print(Dark_Old_Fairy.atk)
+
 
 with open("cards.json", "w", encoding="utf-8" ) as q:
      q.write("{")
@@ -64,4 +68,6 @@ with open("cards.json", "w", encoding="utf-8" ) as q:
      q.write(f"\neffect:{Dark_Old_Fairy.effect}\n")
      q.write("=" * 50)
      q.write("}")
+
+Dark_Old_Fairy.show_info()
 
